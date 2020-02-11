@@ -4,7 +4,7 @@ import { Container } from './styles';
 export default function Header() {
   return (
     <Container>
-        <h1>Teste Pipefy</h1>
+        <h1>Pipefy Clone</h1>
     </Container>
   );
 }

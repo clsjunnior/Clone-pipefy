@@ -26,7 +26,6 @@ export default function Board() {
   )
 
   function move(fromList, toList, from, to){
-    console.log(from, to, fromList);
     setLists(produce(lists, draft =>{
       const dragged = draft[fromList].cards[from];
       setIsMovingCard(true);
